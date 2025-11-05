@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilksongSilkshotSwitcher", "SilksongSilkshotSwitcher\SilksongSilkshotSwitcher.csproj", "{535E1F4B-663B-4045-8A2E-B35FEBF34C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilksongCompletionTracker", "SilksongCompletionTracker\SilksongCompletionTracker.csproj", "{A1C0CD82-E59A-4F91-AE4C-C5A5723EE512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCrest", "CustomCrest\CustomCrest.csproj", "{50386EE0-301E-4D30-8765-40D2975CC095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveModReloader", "LiveModReloader\LiveModReloader.csproj", "{E4DF5ED3-A251-46BC-94F3-18772224533B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535E1F4B-663B-4045-8A2E-B35FEBF34C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535E1F4B-663B-4045-8A2E-B35FEBF34C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535E1F4B-663B-4045-8A2E-B35FEBF34C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535E1F4B-663B-4045-8A2E-B35FEBF34C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C0CD82-E59A-4F91-AE4C-C5A5723EE512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C0CD82-E59A-4F91-AE4C-C5A5723EE512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C0CD82-E59A-4F91-AE4C-C5A5723EE512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C0CD82-E59A-4F91-AE4C-C5A5723EE512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50386EE0-301E-4D30-8765-40D2975CC095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50386EE0-301E-4D30-8765-40D2975CC095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50386EE0-301E-4D30-8765-40D2975CC095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50386EE0-301E-4D30-8765-40D2975CC095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

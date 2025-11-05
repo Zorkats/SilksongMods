@@ -1,0 +1,8 @@
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\obj\Debug\LiveModReloader.csproj.AssemblyReference.cache
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\obj\Debug\LiveModReloader.csproj.CoreCompileInputs.cache
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\bin\Debug\LiveModReloader.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\bin\Debug\LiveModReloader.pdb
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\bin\Debug\UnityEngine.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\obj\Debug\LiveModR.DCD37C99.Up2Date
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\obj\Debug\LiveModReloader.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\LiveModReloader\obj\Debug\LiveModReloader.pdb

@@ -1,0 +1,16 @@
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\CustomCrest.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\CustomCrest.pdb
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\0Harmony.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\BepInEx.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\Mono.Cecil.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\MonoMod.Utils.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\MonoMod.RuntimeDetour.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\0Harmony.xml
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\BepInEx.xml
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\MonoMod.Utils.xml
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\bin\Debug\MonoMod.RuntimeDetour.xml
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\obj\Debug\CustomCrest.csproj.AssemblyReference.cache
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\obj\Debug\CustomCrest.csproj.CoreCompileInputs.cache
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\obj\Debug\CustomCr.0EF363AD.Up2Date
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\obj\Debug\CustomCrest.dll
+C:\Users\Vicente\Desktop\Proyectos Mios\Forks and Codes\Github Repositories\SilksongMods\CustomCrest\obj\Debug\CustomCrest.pdb
