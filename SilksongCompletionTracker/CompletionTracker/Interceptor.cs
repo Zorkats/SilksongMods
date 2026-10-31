@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using HarmonyLib;
 
@@ -191,14 +191,12 @@ namespace SilksongMods.CompletionTracker
         {
             Plugin.Log.LogInfo($"[GET] scene='{sceneName}', id='{id}'");
             // Stack trace can be enabled for deeper debugging if needed
-            // Plugin.Log.LogInfo(Environment.StackTrace);
         }
 
         public static void TryGetValue_Prefix(string sceneName, string id)
         {
             Plugin.Log.LogInfo($"[TRYGET] scene='{sceneName}', id='{id}'");
             // Stack trace can be enabled for deeper debugging if needed
-            // Plugin.Log.LogInfo(Environment.StackTrace);
         }
 
         public static void BeginQuest_Postfix(FullQuestBase __instance)

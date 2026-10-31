@@ -22,7 +22,6 @@ namespace SilksongMods.CompletionTracker
             // Apply only the necessary patches for input handling.
             var harmony = new Harmony("com.zorkats.silksong.completiontracker");
             harmony.PatchAll();
-            //Interceptor.Apply(harmony);
 
             // Add the UI component to the game.
             gameObject.AddComponent<CompletionTrackerUI>();

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using HarmonyLib;
 
@@ -15,10 +15,6 @@ namespace SilksongMods.CompletionTracker
         #endregion
 
         #region Save Data Capture
-        /// <summary>
-        /// Captures the complete list of persistent bools from the master save data.
-        /// This method is called by a Harmony patch ONCE when a save file is loaded.
-        /// </summary>
         public static void CaptureSaveData(SaveGameData data)
         {
             try
@@ -71,9 +67,6 @@ namespace SilksongMods.CompletionTracker
         #endregion
 
         #region Query Methods
-        /// <summary>
-        /// Checks if a persistent item has been collected based on scene name and item ID.
-        /// </summary>
         public static bool IsPersistentItemCollected(string sceneName, string id)
         {
             if (CapturedPersistentBools == null) return false;
@@ -113,9 +106,6 @@ namespace SilksongMods.CompletionTracker
             return false;
         }
 
-        /// <summary>
-        /// Checks if a boolean field on PlayerData is set to true.
-        /// </summary>
         public static bool IsPlayerDataBoolSet(string fieldName)
         {
             if (PlayerData.instance == null) return false;
@@ -136,9 +126,6 @@ namespace SilksongMods.CompletionTracker
             return false;
         }
 
-        /// <summary>
-        /// Checks if a collectable item has been collected based on item name.
-        /// </summary>
         public static bool HasCollectedItem(string itemName)
         {
             if (PlayerData.instance == null || string.IsNullOrEmpty(itemName)) return false;
@@ -154,9 +141,6 @@ namespace SilksongMods.CompletionTracker
                 return false;
             }
         }
-        /// <summary>
-        /// Checks if a quest has been completed based on it's internal name.
-        /// </summary>
         public static bool IsQuestCompleted(string questName)
         {
             if (GameManager.instance?.playerData == null) return false;
@@ -176,9 +160,6 @@ namespace SilksongMods.CompletionTracker
     }
 
     #region Harmony Patches
-    /// <summary>
-    /// Harmony patches to capture save data when a game is loaded.
-    /// </summary>
     [HarmonyPatch]
     public static class CaptureSaveDataPatches
     {
