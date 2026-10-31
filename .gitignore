@@ -20,3 +20,7 @@ CMakeUserPresets.json
 
 ### Local game path, machine-specific
 SilksongPath.props
+
+### Release packaging, kept local
+CustomCrest/nexus/
+CustomCrest/thunderstore/
