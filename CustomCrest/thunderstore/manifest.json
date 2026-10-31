@@ -1,0 +1,11 @@
+{
+  "name": "CustomCrest",
+  "description": "Build your own crest: choose its neutral, up, down and dash attacks and its bind from other crests, including crests from other mods.",
+  "version_number": "4.0.0",
+  "dependencies": [
+    "silksong_modding-BepInExPack_Silksong-1.0.3",
+    "silksong_modding-FsmUtil-0.3.16",
+    "Voidlings-Needleforge-0.9.0"
+  ],
+  "website_url": "https://github.com/Zorkats/SilksongMods"
+}

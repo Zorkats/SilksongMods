@@ -1,4 +1,4 @@
-﻿#pragma warning disable 0169, 0414, 0649
+#pragma warning disable 0169, 0414, 0649
 namespace CustomCrestMod
 {
     internal sealed class ConfigurationManagerAttributes

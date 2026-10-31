@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilksongCompletionTracker",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCrest", "CustomCrest\CustomCrest.csproj", "{50386EE0-301E-4D30-8765-40D2975CC095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveModReloader", "LiveModReloader\LiveModReloader.csproj", "{E4DF5ED3-A251-46BC-94F3-18772224533B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrestComposition", "CrestComposition\CrestComposition.csproj", "{8F4B2C91-5D7A-4E12-9B3C-6A1E8F0D2B44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +26,9 @@ Global
 		{50386EE0-301E-4D30-8765-40D2975CC095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50386EE0-301E-4D30-8765-40D2975CC095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50386EE0-301E-4D30-8765-40D2975CC095}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4DF5ED3-A251-46BC-94F3-18772224533B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4B2C91-5D7A-4E12-9B3C-6A1E8F0D2B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4B2C91-5D7A-4E12-9B3C-6A1E8F0D2B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4B2C91-5D7A-4E12-9B3C-6A1E8F0D2B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4B2C91-5D7A-4E12-9B3C-6A1E8F0D2B44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

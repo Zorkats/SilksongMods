@@ -1,0 +1,153 @@
+[size=5][b]Custom Crest[/b][/size]
+
+The Custom Crest mod everyone loved, now reborn! Take the neutral attack from one crest, the down attack from another, and the bind from a third. Crests from other mods now work too.
+
+The crest is unlocked from the start, and you can change everything from the config while the game runs.
+
+[line]
+
+[size=4][b]What you can mix[/b][/size]
+
+[list]
+[*][b]Neutral attacks:[/b] normal, alternate, wall, taunt and charged attacks, from any crest.
+[*][b]Up attacks:[/b] from any crest.
+[*][b]Dash attacks:[/b] from any crest except Void Crest, which has no dash attack that plays.
+[*][b]Down attacks:[/b] from the seven base game crests.
+[*][b]Binds:[/b] from the seven base game crests, or from Void Crest if you have it installed.
+[*][b]Tool slots:[/b] choose how many of each color you want.
+[/list]
+
+Each piece keeps its own crest's feel:
+
+[list]
+[*]Neutral, up and down attacks each swing at the speed of the crest they came from.
+[*]Attacks taken from Beast change to Beast's rage attacks while you are in rage.
+[*]With Wanderer's dash attack, attacking right after a recoil does Wanderer's follow-up dash.
+[*]With Wanderer's bind, your hits can be lucky while you have 9 or more silk.
+[*]Attacks from other mods bring their tints, screen effects and charged attacks.
+[/list]
+
+[line]
+
+[size=4][b]Requirements[/b][/size]
+
+Nexus does not install these for you, so install all four first:
+
+[list=1]
+[*][url=https://thunderstore.io/c/hollow-knight-silksong/p/silksong_modding/BepInExPack_Silksong/]BepInExPack Silksong[/url] 1.0.3 or newer
+[*][url=https://thunderstore.io/c/hollow-knight-silksong/p/Voidlings/Needleforge/]Needleforge[/url] 0.9.0 or newer
+[*][url=https://thunderstore.io/c/hollow-knight-silksong/p/silksong_modding/FsmUtil/]FsmUtil[/url] 0.3.16 or newer
+[*][url=https://thunderstore.io/c/hollow-knight-silksong/p/silksong_modding/SilksongPrepatcher/]SilksongPrepatcher[/url] 1.4.0 or newer (Needleforge needs it)
+[/list]
+
+Optional crests you can borrow from:
+
+[list]
+[*][url=https://thunderstore.io/c/hollow-knight-silksong/p/kaycodes13/QueenCrest/]Queen Crest[/url] (also needs I18N)
+[*][url=https://thunderstore.io/c/hollow-knight-silksong/p/DerVorce/Void_Crest/]Void Crest[/url]
+[/list]
+
+[line]
+
+[size=4][b]Installing[/b][/size]
+
+[list=1]
+[*]Install the requirements above. A mod manager handles them for you. To install by hand, use [b]Manual Download[/b] on each page: the [font=Courier New]plugins[/font] folder in that zip goes into [font=Courier New]BepInEx/plugins[/font], and the [font=Courier New]patchers[/font] folder goes into [font=Courier New]BepInEx/patchers[/font].
+[*]Extract this mod's zip into your game folder, the one that contains [font=Courier New]Hollow Knight Silksong.exe[/font]. You should end up with [font=Courier New]BepInEx/plugins/CustomCrest.dll[/font] and [font=Courier New]BepInEx/plugins/CrestComposition.dll[/font].
+[*]Start the game once, so BepInEx writes the config file.
+[*]Equip [b]Custom Crest[/b] at a bench.
+[*]Edit [font=Courier New]BepInEx/config/com.zorkats.silksong.customcrest.cfg[/font], or use an in-game config manager.
+[/list]
+
+[b]Updating from an older version:[/b] back up your save, delete the old [font=Courier New]CustomCrest.dll[/font] from [font=Courier New]BepInEx/plugins[/font] (check its subfolders too), then extract the zip. Both DLLs must be from this version. Your config carries over. [font=Courier New]UseBindingCrestDash[/font] no longer does anything, so use [font=Courier New]DashAttack[/font] instead.
+
+[line]
+
+[size=4][b]Settings[/b][/size]
+
+The config uses the game's internal crest names:
+
+[list]
+[*][font=Courier New]Hunter[/font], [font=Courier New]Reaper[/font], [font=Courier New]Wanderer[/font] and [font=Courier New]Witch[/font] are the crests of the same name.
+[*][font=Courier New]Warrior[/font] is Beast.
+[*][font=Courier New]Toolmaster[/font] is Architect.
+[*][font=Courier New]Spell[/font] is Shaman.
+[/list]
+
+[b]Attacks[/b]
+
+[list]
+[*][font=Courier New]NeutralAttack[/font], [font=Courier New]UpAttack[/font]: any crest, including other mods' crests. Default [font=Courier New]Hunter[/font].
+[*][font=Courier New]DashAttack[/font]: any crest with a dash attack that plays, including other mods' crests. Default [font=Courier New]Hunter[/font].
+[*][font=Courier New]DownAttack[/font]: the seven crests above. Default [font=Courier New]Hunter[/font].
+[/list]
+
+[b]BindingAction[/b] chooses what binding does. Default [font=Courier New]Hunter[/font].
+
+[list]
+[*][font=Courier New]Hunter[/font]: heals normally.
+[*][font=Courier New]Wanderer[/font]: heals normally, and your hits can be lucky while you have 9 or more silk.
+[*][font=Courier New]Warrior[/font]: enters rage.
+[*][font=Courier New]Witch[/font]: binds with tentacles.
+[*][font=Courier New]Reaper[/font]: enters reaper mode.
+[*][font=Courier New]Spell[/font]: charges the bind.
+[*][font=Courier New]Toolmaster[/font]: quick crafts when you bind with Up held.
+[*][font=Courier New]Void[/font]: Void Crest's focus bind, which heals nothing by default. Bind with Up held to spend 9 silk on its sphere, which heals from your void mass. Needs Void Crest.
+[/list]
+
+[b]Tool slots[/b]
+
+[list]
+[*][font=Courier New]NeutralSlots[/font], [font=Courier New]UpSlots[/font], [font=Courier New]DownSlots[/font]: 0 or 1. Default 1.
+[*][font=Courier New]NeutralUseSkillSlots[/font], [font=Courier New]UpUseSkillSlots[/font], [font=Courier New]DownUseSkillSlots[/font]: true for white slots, false for red. Default false.
+[*][font=Courier New]BlueSlots[/font], [font=Courier New]YellowSlots[/font]: 0 to 10. Default 3.
+[*][font=Courier New]UnlockAllSlots[/font]: true or false. Default true.
+[/list]
+
+If you change the slots while the game runs, reopen the inventory to see the new layout. Your tools move to matching slots, even if you edited the slots with the game closed.
+
+[line]
+
+[size=4][b]Using other mods' crests[/b][/size]
+
+Install the other crest's mod, then use its internal name in [font=Courier New]NeutralAttack[/font], [font=Courier New]UpAttack[/font] or [font=Courier New]DashAttack[/font]. The internal name can differ from the name in the game.
+
+[list]
+[*]Queen Crest: [font=Courier New]Yen[/font]
+[*]Void Crest: [font=Courier New]Void[/font] (not for [font=Courier New]DashAttack[/font])
+[/list]
+
+For any other mod, open [font=Courier New]BepInEx/LogOutput.log[/font] and look for the line that starts with [font=Courier New]Attack sources available:[/font]. It lists every name you can use. The line [font=Courier New]Dash attack sources available:[/font] lists the names [font=Courier New]DashAttack[/font] accepts.
+
+If you remove a mod while the config still names its crest, that setting goes back to [font=Courier New]Hunter[/font].
+
+[line]
+
+[size=4][b]Known limits[/b][/size]
+
+[list]
+[*][b]Other mods' crests:[/b] the attacks come across, but other code written for that crest does not, such as its passive effects.
+[*][b]Other mods' tints:[/b] a tint set for a whole crest colors sprites only, so particles and meshes keep their own color.
+[*][b]Down attacks:[/b] these come from the seven base game crests only. Queen Crest and Void Crest have no down attack of their own.
+[*][b]Void's dash:[/b] Void Crest's dash attack has no animation, and its own crest never plays it, so [font=Courier New]DashAttack[/font] does not accept [font=Courier New]Void[/font]. If your config already has it, the setting goes back to [font=Courier New]Hunter[/font].
+[*][b]Binds from other mods:[/b] only Void Crest's bind is supported. Other mods' binds generally check that their own crest is equipped.
+[*][b]Void's bind:[/b] you get the bind only. Void's sharp shadow dash, silk skill changes, plasmium mass and hero color stay with its own crest. The void spool appears on the HUD after your first bind.
+[*][b]Wanderer's luck:[/b] lucky hits work, but the HUD frame that shows them does not appear.
+[*][b]Tools with no slot left:[/b] a tool with no slot of its type in the new layout is unequipped.
+[/list]
+
+[line]
+
+[size=4][b]For mod authors[/b][/size]
+
+The attack composition is a library, [font=Courier New]CrestComposition.dll[/font], that your own crest mod can use. See the [url=https://github.com/Zorkats/SilksongMods/blob/master/CrestComposition/README.md]framework guide[/url].
+
+[line]
+
+[size=4][b]Reporting a bug[/b][/size]
+
+Use the Bugs tab, and attach [font=Courier New]BepInEx/LogOutput.log[/font] from the session where it happened. Say which crest you set for each attack and bind, and which other mods you have installed.
+
+[size=4][b]Credits[/b][/size]
+
+Built on [url=https://thunderstore.io/c/hollow-knight-silksong/p/Voidlings/Needleforge/]Needleforge[/url] by Voidlings and [url=https://thunderstore.io/c/hollow-knight-silksong/p/silksong_modding/FsmUtil/]FsmUtil[/url] by the Silksong modding team. Source code is on [url=https://github.com/Zorkats/SilksongMods]GitHub[/url].

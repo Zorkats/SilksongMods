@@ -1,34 +1,48 @@
-﻿namespace CustomCrestMod
+// Copyright (c) Zorkats. All rights reserved.
+
+using CrestComposition;
+
+namespace CustomCrestMod
 {
     public enum CrestType
     {
-        Hunter,      // Internal name: "Default" or might not have a ConfigGroup
-        Reaper,      // Internal name: "Scythe"
+        Hunter,
+        Reaper,
         Wanderer,
         Warrior,
         Witch,
         Toolmaster,
-        Spell        // Internal name: "Shaman"
+        Spell
     }
 
     public static class CrestTypeExtensions
     {
-        /// <summary>
-        /// Gets the internal game name for this crest type.
-        /// Some crests have different names in the enum vs in-game.
-        /// </summary>
         public static string GetInternalName(this CrestType crestType)
+        {
+            VanillaCrestInfo info = VanillaCrestCatalog.Get(crestType.ToVanillaCrestType());
+            return info.ActiveRootName;
+        }
+
+        public static VanillaCrestType ToVanillaCrestType(this CrestType crestType)
         {
             switch (crestType)
             {
-                case CrestType.Spell:
-                    return "Shaman";
                 case CrestType.Hunter:
-                    return "Default";
+                    return VanillaCrestType.Hunter;
                 case CrestType.Reaper:
-                    return "Scythe";
+                    return VanillaCrestType.Reaper;
+                case CrestType.Wanderer:
+                    return VanillaCrestType.Wanderer;
+                case CrestType.Warrior:
+                    return VanillaCrestType.Warrior;
+                case CrestType.Witch:
+                    return VanillaCrestType.Witch;
+                case CrestType.Toolmaster:
+                    return VanillaCrestType.Toolmaster;
+                case CrestType.Spell:
+                    return VanillaCrestType.Spell;
                 default:
-                    return crestType.ToString();
+                    return VanillaCrestType.Hunter;
             }
         }
     }
